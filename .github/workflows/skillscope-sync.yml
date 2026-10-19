@@ -1,0 +1,63 @@
+name: SkillScope 自动情报采集与发布
+on:
+  schedule:
+    # UTC 每小时第17分钟，避免整点高峰；北京时间每小时第17分钟。
+    - cron: '17 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'scripts/**'
+      - 'data/**'
+      - '.github/workflows/skillscope-sync.yml'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: skillscope-pages
+  cancel-in-progress: false
+
+jobs:
+  sync-and-deploy:
+    name: 抓取、合并、发布网站
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 检出网站文件
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 自动扫描可信 Skill 来源
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/collect.py
+      - name: 保存新增或变化的数据
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/catalog.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: auto-sync SkillScope intelligence catalog'
+            git push origin HEAD:main
+          else
+            echo 'No material catalog changes to commit.'
+          fi
+      - name: 配置 GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: 上传静态网站
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+      - name: 发布 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
