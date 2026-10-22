@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "SkillScope V4 GitHub Collector",
-  "last_checked": "2026-10-22T10:13:46Z",
+  "last_checked": "2026-10-22T20:09:03Z",
   "sources_scanned": [
     "anthropics/skills (11)",
     "openai/plugins (277)",
@@ -12,7 +12,7 @@
   "source_errors": [],
   "resource_count": 420,
   "new_count": 0,
-  "updated_count": 0,
+  "updated_count": 1,
   "resources": [
     {
       "id": "AUTO-ce460a0e68d7fe292286",
@@ -7039,7 +7039,7 @@
       "subtype": "Agent Skill",
       "category": "软件开发",
       "group": "编程、网站与 AI Agent",
-      "description": "Build, deploy, evaluate, optimize, fine-tune, and manage Microsoft Foundry agents, models, and resources end to end. USE FOR: foundry, azd ai agent, azd provision/deploy, hosted agent scaffold/develop/run/deploy/troubleshoot, prompt agent create, managed harness agent create, GitHub Copilot harness agent, create agent, update agent, add tool to agent, invoke agent, agent insights, evaluate agent, batch eval, continuous eval, continuous monitoring",
+      "description": "Build, deploy, evaluate, optimize, fine-tune, and manage Microsoft Foundry agents, models, and resources end to end. USE FOR: foundry, azd ai agent, azd provision/deploy, hosted agent scaffold/develop/run/deploy/troubleshoot, prompt agent, managed harness agent, Copilot harness, voice agent, create/update/invoke/evaluate agent, add tool to agent, agent insights, batch/continuous eval, continuous monitoring, agent CI/CD, optimize/improve prompt, o",
       "scenario": "适用领域：编程、网站与 AI Agent。仅为目录发现结果，使用前需阅读 SKILL.md、依赖与权限说明。",
       "provider": "Microsoft 官方",
       "platform": "视来源仓库与本地客户端而定，未进行兼容性实测",
@@ -7054,12 +7054,12 @@
       "added": "2026-10-20",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/azure-skills/skills/microsoft-foundry/SKILL.md",
-      "blobSha": "43036ad666e9961d1e76352d90aa712ef717856d",
-      "lastSeenAt": "2026-10-20T23:54:41Z",
+      "blobSha": "8dcb4a13e41f2ddc1e2663bc5e1682d09dd89040",
+      "lastSeenAt": "2026-10-22T20:09:03Z",
       "discoveredAt": "2026-10-20T23:54:41Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-20T23:54:41Z",
-      "updatedAt": "2026-10-20T23:54:41Z"
+      "checkedAt": "2026-10-22T20:09:03Z",
+      "updatedAt": "2026-10-22T20:09:03Z"
     },
     {
       "id": "AUTO-2a8ea2027a224712158d",
