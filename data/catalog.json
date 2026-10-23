@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "SkillScope V4 GitHub Collector",
-  "last_checked": "2026-10-23T10:06:29Z",
+  "last_checked": "2026-10-23T19:16:09Z",
   "sources_scanned": [
     "anthropics/skills (11)",
     "openai/plugins (277)",
@@ -12,7 +12,7 @@
   "source_errors": [],
   "resource_count": 420,
   "new_count": 0,
-  "updated_count": 0,
+  "updated_count": 1,
   "resources": [
     {
       "id": "AUTO-ce460a0e68d7fe292286",
@@ -7054,12 +7054,12 @@
       "added": "2026-10-20",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/azure-skills/skills/microsoft-foundry/SKILL.md",
-      "blobSha": "8dcb4a13e41f2ddc1e2663bc5e1682d09dd89040",
-      "lastSeenAt": "2026-10-22T20:09:03Z",
+      "blobSha": "14fd2bc585abbdd62bbb3231bfd62e7eec115c6b",
+      "lastSeenAt": "2026-10-23T19:16:09Z",
       "discoveredAt": "2026-10-20T23:54:41Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-22T20:09:03Z",
-      "updatedAt": "2026-10-22T20:09:03Z"
+      "checkedAt": "2026-10-23T19:16:09Z",
+      "updatedAt": "2026-10-23T19:16:09Z"
     },
     {
       "id": "AUTO-2a8ea2027a224712158d",
