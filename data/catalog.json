@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "SkillScope V4 GitHub Collector",
-  "last_checked": "2026-10-27T18:44:21Z",
+  "last_checked": "2026-10-27T22:57:52Z",
   "sources_scanned": [
     "anthropics/skills (11)",
     "openai/plugins (277)",
@@ -12,7 +12,7 @@
   "source_errors": [],
   "resource_count": 420,
   "new_count": 0,
-  "updated_count": 2,
+  "updated_count": 1,
   "resources": [
     {
       "id": "AUTO-ce460a0e68d7fe292286",
@@ -6068,12 +6068,12 @@
       "added": "2026-10-20",
       "sourceRepo": "vercel-labs/agent-skills",
       "sourcePath": "skills/deploy-to-vercel/SKILL.md",
-      "blobSha": "a0251ce89a7636230be9c5b989a81e1a54a52a96",
-      "lastSeenAt": "2026-10-20T17:10:56Z",
+      "blobSha": "f3bb68ba31294f0edf81fdb326ddc2666a24e0e0",
+      "lastSeenAt": "2026-10-27T22:57:52Z",
       "discoveredAt": "2026-10-20T17:10:56Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-20T17:10:56Z",
-      "updatedAt": "2026-10-20T17:10:56Z"
+      "checkedAt": "2026-10-27T22:57:52Z",
+      "updatedAt": "2026-10-27T22:57:52Z"
     },
     {
       "id": "AUTO-6e847c97161b0c86978f",
