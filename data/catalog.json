@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "SkillScope V4 GitHub Collector",
-  "last_checked": "2026-10-27T06:18:42Z",
+  "last_checked": "2026-10-27T18:44:21Z",
   "sources_scanned": [
     "anthropics/skills (11)",
     "openai/plugins (277)",
@@ -12,7 +12,7 @@
   "source_errors": [],
   "resource_count": 420,
   "new_count": 0,
-  "updated_count": 1,
+  "updated_count": 2,
   "resources": [
     {
       "id": "AUTO-ce460a0e68d7fe292286",
@@ -3617,7 +3617,7 @@
       "subtype": "Agent Skill",
       "category": "软件开发",
       "group": "编程、网站与 AI Agent",
-      "description": "Debug Azure production issues on Azure using AppLens, Azure Monitor, resource health, and safe triage. WHEN: debug production issues, troubleshoot app service, app service high CPU, app service deployment failure, troubleshoot container apps, container app 503 or target port mismatch, troubleshoot functions, function telemetry missing or stopped after a config/connection-string change, troubleshoot AKS, VM RDP, Linux SSH, VM black screen, can't c",
+      "description": "Debug Azure production issues using AppLens, Azure Monitor, resource health, and safe triage, including evidence-only diagnosis without live access. WHEN: debug production issues, troubleshoot app service, app service high CPU, app service deployment failure, troubleshoot container apps, container app 503 or target port mismatch, troubleshoot functions, function telemetry missing or stopped after a config/connection-string change, troubleshoot AK",
       "scenario": "适用领域：编程、网站与 AI Agent。仅为目录发现结果，使用前需阅读 SKILL.md、依赖与权限说明。",
       "provider": "Microsoft 官方",
       "platform": "视来源仓库与本地客户端而定，未进行兼容性实测",
@@ -3632,12 +3632,12 @@
       "added": "2026-10-20",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/azure-skills/skills/azure-diagnostics/SKILL.md",
-      "blobSha": "be90cc1ca9af253befc15b0993c43f7184c8535b",
-      "lastSeenAt": "2026-10-20T20:37:35Z",
+      "blobSha": "35a21659518211925117404cdd9622aa2eb91380",
+      "lastSeenAt": "2026-10-27T18:44:21Z",
       "discoveredAt": "2026-10-20T20:37:35Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-20T20:37:35Z",
-      "updatedAt": "2026-10-20T20:37:35Z"
+      "checkedAt": "2026-10-27T18:44:21Z",
+      "updatedAt": "2026-10-27T18:44:21Z"
     },
     {
       "id": "AUTO-c4a171a7bd99a8f00108",
@@ -4647,12 +4647,12 @@
       "added": "2026-10-20",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/azure-skills/skills/azure-prepare/SKILL.md",
-      "blobSha": "1df460faf6a6564a2e9b0b2847d3e2a4fa9acb4e",
-      "lastSeenAt": "2026-10-26T20:30:37Z",
+      "blobSha": "87cc0872fd2f5588c996dfd0c0f4be60d94ef555",
+      "lastSeenAt": "2026-10-27T18:44:21Z",
       "discoveredAt": "2026-10-20T23:54:38Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-26T20:30:37Z",
-      "updatedAt": "2026-10-26T20:30:37Z"
+      "checkedAt": "2026-10-27T18:44:21Z",
+      "updatedAt": "2026-10-27T18:44:21Z"
     },
     {
       "id": "AUTO-03d394d9734c3a832da5",
