@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
   "generator": "SkillScope V4 GitHub Collector",
-  "last_checked": "2026-10-27T22:57:52Z",
+  "last_checked": "2026-10-28T16:39:25Z",
   "sources_scanned": [
     "anthropics/skills (11)",
     "openai/plugins (277)",
     "vercel-labs/agent-skills (5)",
-    "microsoft/skills (181)",
+    "microsoft/skills (182)",
     "vercel-labs/skills (3)"
   ],
   "source_errors": [],
   "resource_count": 420,
   "new_count": 0,
-  "updated_count": 1,
+  "updated_count": 4,
   "resources": [
     {
       "id": "AUTO-ce460a0e68d7fe292286",
@@ -1834,12 +1834,12 @@
       "added": "2026-10-19",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/azure-cost/skills/cost-analysis/SKILL.md",
-      "blobSha": "3c02cbfaa11f748177fb9b6df80f130f74a87544",
-      "lastSeenAt": "2026-10-19T03:17:03Z",
+      "blobSha": "91541abbb4c1c578a82a448798ddc03f6fe86a40",
+      "lastSeenAt": "2026-10-28T16:39:24Z",
       "discoveredAt": "2026-10-19T03:17:03Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-19T03:17:03Z",
-      "updatedAt": "2026-10-19T03:17:03Z"
+      "checkedAt": "2026-10-28T16:39:24Z",
+      "updatedAt": "2026-10-28T16:39:24Z"
     },
     {
       "id": "AUTO-aee6b06cef43a0a27285",
@@ -1921,12 +1921,12 @@
       "added": "2026-10-19",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/azure-cost/skills/cost-optimization/SKILL.md",
-      "blobSha": "65104fd7b16b65af4fec3afffa9c5168c98886a1",
-      "lastSeenAt": "2026-10-19T03:17:04Z",
+      "blobSha": "89a2deffe6c0bc48ae593ead1d1f098904882afb",
+      "lastSeenAt": "2026-10-28T16:39:24Z",
       "discoveredAt": "2026-10-19T03:17:04Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-19T03:17:04Z",
-      "updatedAt": "2026-10-19T03:17:04Z"
+      "checkedAt": "2026-10-28T16:39:24Z",
+      "updatedAt": "2026-10-28T16:39:24Z"
     },
     {
       "id": "AUTO-6ca2c55a3d87c187e8e8",
@@ -4009,12 +4009,12 @@
       "added": "2026-10-20",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/azure-skills/skills/azure-kubernetes/SKILL.md",
-      "blobSha": "34a04d8010249f24147c0ce66982c8cfa7eedc87",
-      "lastSeenAt": "2026-10-21T20:11:21Z",
+      "blobSha": "c5b7d501c1f08a1fa64d9f9ea9c34133fd346a41",
+      "lastSeenAt": "2026-10-28T16:39:25Z",
       "discoveredAt": "2026-10-20T23:54:37Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-21T20:11:21Z",
-      "updatedAt": "2026-10-21T20:11:21Z"
+      "checkedAt": "2026-10-28T16:39:25Z",
+      "updatedAt": "2026-10-28T16:39:25Z"
     },
     {
       "id": "AUTO-9fe264f501635756304f",
@@ -7054,12 +7054,12 @@
       "added": "2026-10-20",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/azure-skills/skills/microsoft-foundry/SKILL.md",
-      "blobSha": "14fd2bc585abbdd62bbb3231bfd62e7eec115c6b",
-      "lastSeenAt": "2026-10-23T19:16:09Z",
+      "blobSha": "719ffe24bfee0e21b536e3e3f93f7cf3ba2a93d1",
+      "lastSeenAt": "2026-10-28T16:39:25Z",
       "discoveredAt": "2026-10-20T23:54:41Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-23T19:16:09Z",
-      "updatedAt": "2026-10-23T19:16:09Z"
+      "checkedAt": "2026-10-28T16:39:25Z",
+      "updatedAt": "2026-10-28T16:39:25Z"
     },
     {
       "id": "AUTO-2a8ea2027a224712158d",
