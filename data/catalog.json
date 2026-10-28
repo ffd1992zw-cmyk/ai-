@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "SkillScope V4 GitHub Collector",
-  "last_checked": "2026-10-28T16:39:25Z",
+  "last_checked": "2026-10-28T21:40:00Z",
   "sources_scanned": [
     "anthropics/skills (11)",
     "openai/plugins (277)",
@@ -12,7 +12,7 @@
   "source_errors": [],
   "resource_count": 420,
   "new_count": 0,
-  "updated_count": 4,
+  "updated_count": 1,
   "resources": [
     {
       "id": "AUTO-ce460a0e68d7fe292286",
@@ -6938,12 +6938,12 @@
       "added": "2026-10-19",
       "sourceRepo": "anthropics/skills",
       "sourcePath": "skills/mcp-builder/SKILL.md",
-      "blobSha": "8a1a77a47d141967b246adb4da4f91037578ff7d",
-      "lastSeenAt": "2026-10-19T16:59:48Z",
+      "blobSha": "d61a9056202a0f8b2d064c896e62f415c45b1bf1",
+      "lastSeenAt": "2026-10-28T21:40:00Z",
       "discoveredAt": "2026-10-19T16:59:48Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-19T16:59:48Z",
-      "updatedAt": "2026-10-19T16:59:48Z"
+      "checkedAt": "2026-10-28T21:40:00Z",
+      "updatedAt": "2026-10-28T21:40:00Z"
     },
     {
       "id": "AUTO-fb3331238dc76c154434",
