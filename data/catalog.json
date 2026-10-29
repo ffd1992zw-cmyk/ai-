@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "SkillScope V4 GitHub Collector",
-  "last_checked": "2026-10-29T16:09:15Z",
+  "last_checked": "2026-10-29T21:08:54Z",
   "sources_scanned": [
     "anthropics/skills (11)",
     "openai/plugins (277)",
@@ -12,7 +12,7 @@
   "source_errors": [],
   "resource_count": 420,
   "new_count": 0,
-  "updated_count": 0,
+  "updated_count": 2,
   "resources": [
     {
       "id": "AUTO-ce460a0e68d7fe292286",
@@ -3632,12 +3632,12 @@
       "added": "2026-10-20",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/azure-skills/skills/azure-diagnostics/SKILL.md",
-      "blobSha": "35a21659518211925117404cdd9622aa2eb91380",
-      "lastSeenAt": "2026-10-27T18:44:21Z",
+      "blobSha": "b4ee2db593a16869339b97b9095cdac2f2d49ca9",
+      "lastSeenAt": "2026-10-29T21:08:54Z",
       "discoveredAt": "2026-10-20T20:37:35Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-27T18:44:21Z",
-      "updatedAt": "2026-10-27T18:44:21Z"
+      "checkedAt": "2026-10-29T21:08:54Z",
+      "updatedAt": "2026-10-29T21:08:54Z"
     },
     {
       "id": "AUTO-c4a171a7bd99a8f00108",
@@ -5285,12 +5285,12 @@
       "added": "2026-10-20",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/azure-skills/skills/azure-validate/SKILL.md",
-      "blobSha": "a90886aac989fc59fe8e28155d5d7c66369a669f",
-      "lastSeenAt": "2026-10-20T23:54:40Z",
+      "blobSha": "e68df531cd37ae13aedc866f38e19b3d56376dec",
+      "lastSeenAt": "2026-10-29T21:08:54Z",
       "discoveredAt": "2026-10-20T23:54:40Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-20T23:54:40Z",
-      "updatedAt": "2026-10-20T23:54:40Z"
+      "checkedAt": "2026-10-29T21:08:54Z",
+      "updatedAt": "2026-10-29T21:08:54Z"
     },
     {
       "id": "AUTO-eb26a50022c4382d1693",
