@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "SkillScope V4 GitHub Collector",
-  "last_checked": "2026-11-03T06:51:15Z",
+  "last_checked": "2026-11-03T21:01:39Z",
   "sources_scanned": [
     "anthropics/skills (11)",
     "openai/plugins (277)",
@@ -12,7 +12,7 @@
   "source_errors": [],
   "resource_count": 420,
   "new_count": 0,
-  "updated_count": 0,
+  "updated_count": 4,
   "resources": [
     {
       "id": "AUTO-ce460a0e68d7fe292286",
@@ -3255,12 +3255,12 @@
       "added": "2026-10-20",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/azure-skills/skills/azure-app-onboard/SKILL.md",
-      "blobSha": "00635c01fc9518e171e5157185a60999e1455b84",
-      "lastSeenAt": "2026-10-20T20:37:33Z",
+      "blobSha": "ad1235b1d7155d83a57e55c65a327a3fae31098a",
+      "lastSeenAt": "2026-11-03T21:01:39Z",
       "discoveredAt": "2026-10-20T20:37:33Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-20T20:37:33Z",
-      "updatedAt": "2026-10-20T20:37:33Z"
+      "checkedAt": "2026-11-03T21:01:39Z",
+      "updatedAt": "2026-11-03T21:01:39Z"
     },
     {
       "id": "AUTO-f30d3f40a1d30e124882",
@@ -4647,12 +4647,12 @@
       "added": "2026-10-20",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/azure-skills/skills/azure-prepare/SKILL.md",
-      "blobSha": "87cc0872fd2f5588c996dfd0c0f4be60d94ef555",
-      "lastSeenAt": "2026-10-27T18:44:21Z",
+      "blobSha": "fe764b47aad38c839f320a6d45520e9a25a703fb",
+      "lastSeenAt": "2026-11-03T21:01:39Z",
       "discoveredAt": "2026-10-20T23:54:38Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-27T18:44:21Z",
-      "updatedAt": "2026-10-27T18:44:21Z"
+      "checkedAt": "2026-11-03T21:01:39Z",
+      "updatedAt": "2026-11-03T21:01:39Z"
     },
     {
       "id": "AUTO-03d394d9734c3a832da5",
@@ -6126,12 +6126,12 @@
       "added": "2026-10-20",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/azure-skills/skills/discover-azure-skills/SKILL.md",
-      "blobSha": "ce732e882f25414f630e571ce250f062d95335ad",
-      "lastSeenAt": "2026-10-20T23:54:40Z",
+      "blobSha": "abee049349692e8bcb0f71970db3de7559bf7ec5",
+      "lastSeenAt": "2026-11-03T21:01:39Z",
       "discoveredAt": "2026-10-20T23:54:40Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-20T23:54:40Z",
-      "updatedAt": "2026-10-20T23:54:40Z"
+      "checkedAt": "2026-11-03T21:01:39Z",
+      "updatedAt": "2026-11-03T21:01:39Z"
     },
     {
       "id": "AUTO-fd84985933e9d02b768a",
@@ -9664,12 +9664,12 @@
       "added": "2026-10-20",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/foundry-iq-skills/skills/foundry-iq/SKILL.md",
-      "blobSha": "d81ed5fc5840955acae9d14f022828a580621327",
-      "lastSeenAt": "2026-10-20T23:54:44Z",
+      "blobSha": "cd720eeb3040f4fb207c436970b4fbec6fe61c0c",
+      "lastSeenAt": "2026-11-03T21:01:39Z",
       "discoveredAt": "2026-10-20T23:54:44Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-20T23:54:44Z",
-      "updatedAt": "2026-10-20T23:54:44Z"
+      "checkedAt": "2026-11-03T21:01:39Z",
+      "updatedAt": "2026-11-03T21:01:39Z"
     },
     {
       "id": "AUTO-3bf20e337c42b5dd230a",
