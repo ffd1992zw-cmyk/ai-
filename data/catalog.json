@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "SkillScope V4 GitHub Collector",
-  "last_checked": "2026-11-03T21:01:39Z",
+  "last_checked": "2026-11-04T01:24:09Z",
   "sources_scanned": [
     "anthropics/skills (11)",
     "openai/plugins (277)",
@@ -12,7 +12,7 @@
   "source_errors": [],
   "resource_count": 420,
   "new_count": 0,
-  "updated_count": 4,
+  "updated_count": 1,
   "resources": [
     {
       "id": "AUTO-ce460a0e68d7fe292286",
@@ -7126,7 +7126,7 @@
       "subtype": "Agent Skill",
       "category": "软件开发",
       "group": "编程、网站与 AI Agent",
-      "description": "Use when Codex is asked to build, run, test, debug, or configure an OpenAI-backed or provider-unspecified AI app, UI, script, CLI, generator, or tool, especially requests phrased only as \"using AI\" or generators driven by forms/user input; also use for OPENAI_API_KEY or sk-proj setup. Treat this as the credential gate: inspect safely, ask reuse-vs-new before API work, and never expose plaintext.",
+      "description": "Use when Codex is asked to build, run, test, debug, or configure an OpenAI-backed or provider-unspecified AI app, UI, script, CLI, generator, or tool, especially requests phrased only as \"using AI\" or generators driven by forms/user input; also use for OPENAI_API_KEY or sk-proj setup. Do not gate model or prompt migrations that can proceed with source edits and offline validation. Otherwise treat this as the credential gate: inspect safely, ask r",
       "scenario": "适用领域：编程、网站与 AI Agent。仅为目录发现结果，使用前需阅读 SKILL.md、依赖与权限说明。",
       "provider": "OpenAI 官方",
       "platform": "视来源仓库与本地客户端而定，未进行兼容性实测",
@@ -7141,12 +7141,12 @@
       "added": "2026-10-19",
       "sourceRepo": "openai/plugins",
       "sourcePath": "plugins/openai-developers/skills/openai-platform-api-key/SKILL.md",
-      "blobSha": "8966a739c95faacdb151cc4ef74a5e2f8577a9ff",
-      "lastSeenAt": "2026-10-19T16:59:44Z",
+      "blobSha": "c2201e356523bcfa6a0442c626cec519a70e6f5f",
+      "lastSeenAt": "2026-11-04T01:24:09Z",
       "discoveredAt": "2026-10-19T16:59:44Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-19T16:59:44Z",
-      "updatedAt": "2026-10-19T16:59:44Z"
+      "checkedAt": "2026-11-04T01:24:09Z",
+      "updatedAt": "2026-11-04T01:24:09Z"
     },
     {
       "id": "AUTO-6f71cb8553bf9c76a92d",
