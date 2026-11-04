@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "SkillScope V4 GitHub Collector",
-  "last_checked": "2026-11-04T17:21:35Z",
+  "last_checked": "2026-11-04T23:42:15Z",
   "sources_scanned": [
     "anthropics/skills (11)",
     "openai/plugins (277)",
@@ -12,7 +12,7 @@
   "source_errors": [],
   "resource_count": 420,
   "new_count": 0,
-  "updated_count": 0,
+  "updated_count": 3,
   "resources": [
     {
       "id": "AUTO-ce460a0e68d7fe292286",
@@ -3255,12 +3255,12 @@
       "added": "2026-10-20",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/azure-skills/skills/azure-app-onboard/SKILL.md",
-      "blobSha": "ad1235b1d7155d83a57e55c65a327a3fae31098a",
-      "lastSeenAt": "2026-11-03T21:01:39Z",
+      "blobSha": "5589a9b9f3b474d16630112d267c76207b3cfeb3",
+      "lastSeenAt": "2026-11-04T23:42:15Z",
       "discoveredAt": "2026-10-20T20:37:33Z",
       "githubUpdated": "",
-      "checkedAt": "2026-11-03T21:01:39Z",
-      "updatedAt": "2026-11-03T21:01:39Z"
+      "checkedAt": "2026-11-04T23:42:15Z",
+      "updatedAt": "2026-11-04T23:42:15Z"
     },
     {
       "id": "AUTO-f30d3f40a1d30e124882",
@@ -3284,12 +3284,12 @@
       "added": "2026-10-20",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/azure-skills/skills/azure-app-onboard-prereq/SKILL.md",
-      "blobSha": "5897a8937a5180e91990f069ff301ae8ac4df036",
-      "lastSeenAt": "2026-10-20T20:37:33Z",
+      "blobSha": "2ff2614c611df4a4a5602ac6726cf87fd99941ea",
+      "lastSeenAt": "2026-11-04T23:42:15Z",
       "discoveredAt": "2026-10-20T20:37:33Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-20T20:37:33Z",
-      "updatedAt": "2026-10-20T20:37:33Z"
+      "checkedAt": "2026-11-04T23:42:15Z",
+      "updatedAt": "2026-11-04T23:42:15Z"
     },
     {
       "id": "AUTO-515479c0efabee32f22d",
@@ -8866,7 +8866,7 @@
       "subtype": "Agent Skill",
       "category": "行业研究",
       "group": "行业研究与商业情报",
-      "description": "Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps with search, vector/hybrid search, speech-to-text, text-to-speech, transcription, OCR. WHEN: AI Search, query search, vector search, hybrid search, semantic search, speech-to-text, text-to-speech, transcribe, OCR, convert text to speech.",
+      "description": "Build and troubleshoot Azure AI Search, Speech, OpenAI, and Document Intelligence apps. WHEN: AI Search, query search, vector search, hybrid search, semantic search, speech-to-text, text-to-speech, transcribe, Speech SDK logs, session ID, result ID, OCR, convert text to speech.",
       "scenario": "适用领域：行业研究与商业情报。仅为目录发现结果，使用前需阅读 SKILL.md、依赖与权限说明。",
       "provider": "Microsoft 官方",
       "platform": "视来源仓库与本地客户端而定，未进行兼容性实测",
@@ -8881,12 +8881,12 @@
       "added": "2026-10-20",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/azure-skills/skills/azure-ai/SKILL.md",
-      "blobSha": "6ba99c7a088a27f5c1059f00b8ce9f323a56a984",
-      "lastSeenAt": "2026-10-20T20:37:33Z",
+      "blobSha": "4b6271d3153128c665bb3f3eb0f56121309d893c",
+      "lastSeenAt": "2026-11-04T23:42:15Z",
       "discoveredAt": "2026-10-20T20:37:33Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-20T20:37:33Z",
-      "updatedAt": "2026-10-20T20:37:33Z"
+      "checkedAt": "2026-11-04T23:42:15Z",
+      "updatedAt": "2026-11-04T23:42:15Z"
     },
     {
       "id": "AUTO-253fea352bba1d56174f",
