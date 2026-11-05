@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
   "generator": "SkillScope V4 GitHub Collector",
-  "last_checked": "2026-11-04T23:42:15Z",
+  "last_checked": "2026-11-05T06:50:08Z",
   "sources_scanned": [
     "anthropics/skills (11)",
     "openai/plugins (277)",
     "vercel-labs/agent-skills (5)",
     "microsoft/skills (182)",
-    "vercel-labs/skills (3)"
+    "vercel-labs/skills (5)"
   ],
   "source_errors": [],
   "resource_count": 420,
   "new_count": 0,
-  "updated_count": 3,
+  "updated_count": 1,
   "resources": [
     {
       "id": "AUTO-ce460a0e68d7fe292286",
@@ -1399,12 +1399,12 @@
       "added": "2026-10-20",
       "sourceRepo": "vercel-labs/skills",
       "sourcePath": ".vc/automations/workflows/triage/skills/triage/SKILL.md",
-      "blobSha": "711ef21136f838e2a81a74d519c1c3d9bab5c980",
-      "lastSeenAt": "2026-10-20T17:10:58Z",
+      "blobSha": "3a0078f3c414d89af1e2c6dabb2227b13837a828",
+      "lastSeenAt": "2026-11-05T06:50:08Z",
       "discoveredAt": "2026-10-20T17:10:58Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-20T17:10:58Z",
-      "updatedAt": "2026-10-20T17:10:58Z"
+      "checkedAt": "2026-11-05T06:50:08Z",
+      "updatedAt": "2026-11-05T06:50:08Z"
     },
     {
       "id": "AUTO-89a83167d8ca5a14c282",
