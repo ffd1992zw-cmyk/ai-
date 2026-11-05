@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
   "generator": "SkillScope V4 GitHub Collector",
-  "last_checked": "2026-11-05T06:50:08Z",
+  "last_checked": "2026-11-05T22:00:20Z",
   "sources_scanned": [
     "anthropics/skills (11)",
     "openai/plugins (277)",
     "vercel-labs/agent-skills (5)",
-    "microsoft/skills (182)",
+    "microsoft/skills (179)",
     "vercel-labs/skills (5)"
   ],
   "source_errors": [],
   "resource_count": 420,
   "new_count": 0,
-  "updated_count": 1,
+  "updated_count": 3,
   "resources": [
     {
       "id": "AUTO-ce460a0e68d7fe292286",
@@ -2689,7 +2689,7 @@
       "subtype": "Agent Skill",
       "category": "软件开发",
       "group": "编程、网站与 AI Agent",
-      "description": "Use Azure Advisor recommendations. WHEN: \\\"show Advisor recommendations\\\", \\\"service retirements\\\", \\\"update recommendation status\\\". DO NOT USE FOR: fixes or remediation (use azure-advisor-actionability).",
+      "description": "Use Azure Advisor. WHEN: \\\"show recommendations\\\", \\\"top Advisor actions\\\", \\\"prioritize recommendations\\\", \\\"service retirements\\\", \\\"update status\\\". DO NOT USE FOR: fixes (use azure-advisor-actionability).",
       "scenario": "适用领域：编程、网站与 AI Agent。仅为目录发现结果，使用前需阅读 SKILL.md、依赖与权限说明。",
       "provider": "Microsoft 官方",
       "platform": "视来源仓库与本地客户端而定，未进行兼容性实测",
@@ -2704,12 +2704,12 @@
       "added": "2026-10-20",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/azure-advisor/skills/azure-advisor/SKILL.md",
-      "blobSha": "d817a28d4a38f845cd589bf8ff8e991b5d7f37e6",
-      "lastSeenAt": "2026-10-20T17:11:00Z",
+      "blobSha": "1183024ab5449fee840b9e71052445d578e14c18",
+      "lastSeenAt": "2026-11-05T22:00:19Z",
       "discoveredAt": "2026-10-20T17:11:00Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-20T17:11:00Z",
-      "updatedAt": "2026-10-20T17:11:00Z"
+      "checkedAt": "2026-11-05T22:00:19Z",
+      "updatedAt": "2026-11-05T22:00:19Z"
     },
     {
       "id": "AUTO-759a7e4c6a2c3add2ba1",
@@ -3255,12 +3255,12 @@
       "added": "2026-10-20",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/azure-skills/skills/azure-app-onboard/SKILL.md",
-      "blobSha": "5589a9b9f3b474d16630112d267c76207b3cfeb3",
-      "lastSeenAt": "2026-11-04T23:42:15Z",
+      "blobSha": "23ec1d16e8588f97064bf19653e6b54b8bfb5886",
+      "lastSeenAt": "2026-11-05T22:00:20Z",
       "discoveredAt": "2026-10-20T20:37:33Z",
       "githubUpdated": "",
-      "checkedAt": "2026-11-04T23:42:15Z",
-      "updatedAt": "2026-11-04T23:42:15Z"
+      "checkedAt": "2026-11-05T22:00:20Z",
+      "updatedAt": "2026-11-05T22:00:20Z"
     },
     {
       "id": "AUTO-f30d3f40a1d30e124882",
@@ -3284,12 +3284,12 @@
       "added": "2026-10-20",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/azure-skills/skills/azure-app-onboard-prereq/SKILL.md",
-      "blobSha": "2ff2614c611df4a4a5602ac6726cf87fd99941ea",
-      "lastSeenAt": "2026-11-04T23:42:15Z",
+      "blobSha": "17c63cde9f1dfe676dd5353f7427413a6601fbfb",
+      "lastSeenAt": "2026-11-05T22:00:20Z",
       "discoveredAt": "2026-10-20T20:37:33Z",
       "githubUpdated": "",
-      "checkedAt": "2026-11-04T23:42:15Z",
-      "updatedAt": "2026-11-04T23:42:15Z"
+      "checkedAt": "2026-11-05T22:00:20Z",
+      "updatedAt": "2026-11-05T22:00:20Z"
     },
     {
       "id": "AUTO-515479c0efabee32f22d",
