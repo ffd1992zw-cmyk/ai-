@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "SkillScope V4 GitHub Collector",
-  "last_checked": "2026-11-06T17:59:30Z",
+  "last_checked": "2026-11-06T23:11:39Z",
   "sources_scanned": [
     "anthropics/skills (11)",
     "openai/plugins (277)",
@@ -12,7 +12,7 @@
   "source_errors": [],
   "resource_count": 420,
   "new_count": 0,
-  "updated_count": 1,
+  "updated_count": 4,
   "resources": [
     {
       "id": "AUTO-ce460a0e68d7fe292286",
@@ -239,12 +239,12 @@
       "added": "2026-10-19",
       "sourceRepo": "anthropics/skills",
       "sourcePath": "skills/docx/SKILL.md",
-      "blobSha": "fb954a460a1ea2294e9595e87fecce8df043eeba",
-      "lastSeenAt": "2026-10-19T16:59:47Z",
+      "blobSha": "acc50ea0729fc4b22319b25f1277d0db6f3b429a",
+      "lastSeenAt": "2026-11-06T23:11:39Z",
       "discoveredAt": "2026-10-19T16:59:47Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-19T16:59:47Z",
-      "updatedAt": "2026-10-19T16:59:47Z"
+      "checkedAt": "2026-11-06T23:11:39Z",
+      "updatedAt": "2026-11-06T23:11:39Z"
     },
     {
       "id": "AUTO-336d0143cfe2d7d6f9d9",
@@ -384,12 +384,12 @@
       "added": "2026-10-19",
       "sourceRepo": "anthropics/skills",
       "sourcePath": "skills/pdf/SKILL.md",
-      "blobSha": "d3e046a5ae107a6cb23cfb16c219837094ab35d3",
-      "lastSeenAt": "2026-10-19T16:59:48Z",
+      "blobSha": "9f606f1cd68dcab9dabb75b548e90c1de028b8a2",
+      "lastSeenAt": "2026-11-06T23:11:39Z",
       "discoveredAt": "2026-10-19T16:59:48Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-19T16:59:48Z",
-      "updatedAt": "2026-10-19T16:59:48Z"
+      "checkedAt": "2026-11-06T23:11:39Z",
+      "updatedAt": "2026-11-06T23:11:39Z"
     },
     {
       "id": "AUTO-c2f259af8249ae3e5136",
@@ -413,12 +413,12 @@
       "added": "2026-10-19",
       "sourceRepo": "anthropics/skills",
       "sourcePath": "skills/pptx/SKILL.md",
-      "blobSha": "41cd2306977f269bb1d8169a9643b35053aa66bd",
-      "lastSeenAt": "2026-10-19T16:59:48Z",
+      "blobSha": "a90df9c7e8f47c474c58f367faba57b66ff14cbb",
+      "lastSeenAt": "2026-11-06T23:11:39Z",
       "discoveredAt": "2026-10-19T16:59:48Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-19T16:59:48Z",
-      "updatedAt": "2026-10-19T16:59:48Z"
+      "checkedAt": "2026-11-06T23:11:39Z",
+      "updatedAt": "2026-11-06T23:11:39Z"
     },
     {
       "id": "AUTO-3d8c38af4a2dad4993c9",
@@ -645,12 +645,12 @@
       "added": "2026-10-19",
       "sourceRepo": "anthropics/skills",
       "sourcePath": "skills/xlsx/SKILL.md",
-      "blobSha": "9da54804cc8c938586f89363c8da3b3a6e2a563d",
-      "lastSeenAt": "2026-10-19T21:33:17Z",
+      "blobSha": "cc347203f2247b009b8ea34574bccfa62fce3669",
+      "lastSeenAt": "2026-11-06T23:11:39Z",
       "discoveredAt": "2026-10-19T21:33:17Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-19T21:33:17Z",
-      "updatedAt": "2026-10-19T21:33:17Z"
+      "checkedAt": "2026-11-06T23:11:39Z",
+      "updatedAt": "2026-11-06T23:11:39Z"
     },
     {
       "id": "AUTO-93bb7c714f3f41c0fda0",
