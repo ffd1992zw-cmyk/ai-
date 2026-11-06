@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "SkillScope V4 GitHub Collector",
-  "last_checked": "2026-11-06T10:56:00Z",
+  "last_checked": "2026-11-06T17:59:30Z",
   "sources_scanned": [
     "anthropics/skills (11)",
     "openai/plugins (277)",
@@ -12,7 +12,7 @@
   "source_errors": [],
   "resource_count": 420,
   "new_count": 0,
-  "updated_count": 0,
+  "updated_count": 1,
   "resources": [
     {
       "id": "AUTO-ce460a0e68d7fe292286",
@@ -7344,12 +7344,12 @@
       "added": "2026-10-19",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/azure-skills/skills/python-appservice-deploy/SKILL.md",
-      "blobSha": "ca5cc00ee36032b5552bca1ff56d9110341c6396",
-      "lastSeenAt": "2026-10-19T03:16:58Z",
+      "blobSha": "b97377ef1c765819820754f44e1bee922414d748",
+      "lastSeenAt": "2026-11-06T17:59:30Z",
       "discoveredAt": "2026-10-19T03:16:58Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-19T03:16:58Z",
-      "updatedAt": "2026-10-19T03:16:58Z"
+      "checkedAt": "2026-11-06T17:59:30Z",
+      "updatedAt": "2026-11-06T17:59:30Z"
     },
     {
       "id": "AUTO-5c5dd3c2a194a9980c2c",
