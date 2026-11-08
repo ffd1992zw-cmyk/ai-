@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "SkillScope V4 GitHub Collector",
-  "last_checked": "2026-11-08T07:24:03Z",
+  "last_checked": "2026-11-08T19:44:20Z",
   "sources_scanned": [
     "anthropics/skills (11)",
     "openai/plugins (277)",
