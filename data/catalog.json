@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "SkillScope V4 GitHub Collector",
-  "last_checked": "2026-11-14T11:29:59Z",
+  "last_checked": "2026-11-14T18:05:50Z",
   "sources_scanned": [
     "anthropics/skills (11)",
     "openai/plugins (277)",
@@ -12,7 +12,7 @@
   "source_errors": [],
   "resource_count": 420,
   "new_count": 0,
-  "updated_count": 0,
+  "updated_count": 3,
   "resources": [
     {
       "id": "AUTO-ce460a0e68d7fe292286",
@@ -239,12 +239,12 @@
       "added": "2026-10-19",
       "sourceRepo": "anthropics/skills",
       "sourcePath": "skills/docx/SKILL.md",
-      "blobSha": "acc50ea0729fc4b22319b25f1277d0db6f3b429a",
-      "lastSeenAt": "2026-11-06T23:11:39Z",
+      "blobSha": "8620c46411705b38e4d97f15325fc976911c4f89",
+      "lastSeenAt": "2026-11-14T18:05:49Z",
       "discoveredAt": "2026-10-19T16:59:47Z",
       "githubUpdated": "",
-      "checkedAt": "2026-11-06T23:11:39Z",
-      "updatedAt": "2026-11-06T23:11:39Z"
+      "checkedAt": "2026-11-14T18:05:49Z",
+      "updatedAt": "2026-11-14T18:05:49Z"
     },
     {
       "id": "AUTO-336d0143cfe2d7d6f9d9",
@@ -413,12 +413,12 @@
       "added": "2026-10-19",
       "sourceRepo": "anthropics/skills",
       "sourcePath": "skills/pptx/SKILL.md",
-      "blobSha": "a90df9c7e8f47c474c58f367faba57b66ff14cbb",
-      "lastSeenAt": "2026-11-06T23:11:39Z",
+      "blobSha": "785fea6d36f74970eb38dd00af51651ff0792162",
+      "lastSeenAt": "2026-11-14T18:05:49Z",
       "discoveredAt": "2026-10-19T16:59:48Z",
       "githubUpdated": "",
-      "checkedAt": "2026-11-06T23:11:39Z",
-      "updatedAt": "2026-11-06T23:11:39Z"
+      "checkedAt": "2026-11-14T18:05:49Z",
+      "updatedAt": "2026-11-14T18:05:49Z"
     },
     {
       "id": "AUTO-3d8c38af4a2dad4993c9",
@@ -645,12 +645,12 @@
       "added": "2026-10-19",
       "sourceRepo": "anthropics/skills",
       "sourcePath": "skills/xlsx/SKILL.md",
-      "blobSha": "cc347203f2247b009b8ea34574bccfa62fce3669",
-      "lastSeenAt": "2026-11-06T23:11:39Z",
+      "blobSha": "419ecd344b776826107eef93a9727af3772cb755",
+      "lastSeenAt": "2026-11-14T18:05:50Z",
       "discoveredAt": "2026-10-19T21:33:17Z",
       "githubUpdated": "",
-      "checkedAt": "2026-11-06T23:11:39Z",
-      "updatedAt": "2026-11-06T23:11:39Z"
+      "checkedAt": "2026-11-14T18:05:50Z",
+      "updatedAt": "2026-11-14T18:05:50Z"
     },
     {
       "id": "AUTO-93bb7c714f3f41c0fda0",
