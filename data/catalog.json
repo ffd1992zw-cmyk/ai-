@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "generator": "SkillScope V4 GitHub Collector",
-  "last_checked": "2026-11-17T22:54:02Z",
+  "last_checked": "2026-11-18T04:24:23Z",
   "sources_scanned": [
     "anthropics/skills (11)",
-    "openai/plugins (277)",
+    "openai/plugins (282)",
     "vercel-labs/agent-skills (5)",
     "microsoft/skills (184)",
     "vercel-labs/skills (5)"
@@ -12,7 +12,7 @@
   "source_errors": [],
   "resource_count": 420,
   "new_count": 0,
-  "updated_count": 0,
+  "updated_count": 15,
   "resources": [
     {
       "id": "AUTO-ce460a0e68d7fe292286",
@@ -732,12 +732,12 @@
       "added": "2026-10-21",
       "sourceRepo": "openai/plugins",
       "sourcePath": "plugins/codex-security/skills/assess-patch-risk/SKILL.md",
-      "blobSha": "14dbee6cee45a999c031382494a5972d75cecb6f",
-      "lastSeenAt": "2026-10-21T04:51:51Z",
+      "blobSha": "6c2d7e8ff8839c60c2d5e2760d95c1be811a7026",
+      "lastSeenAt": "2026-11-18T04:24:19Z",
       "discoveredAt": "2026-10-21T04:51:51Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-21T04:51:51Z",
-      "updatedAt": "2026-10-21T04:51:51Z"
+      "checkedAt": "2026-11-18T04:24:19Z",
+      "updatedAt": "2026-11-18T04:24:19Z"
     },
     {
       "id": "AUTO-b145680ac08c1624904a",
@@ -2762,12 +2762,12 @@
       "added": "2026-10-21",
       "sourceRepo": "openai/plugins",
       "sourcePath": "plugins/codex-security/skills/attack-path-analysis/SKILL.md",
-      "blobSha": "cbcd539decd593a5a4fb9397a7ed3a98cb2a8c99",
-      "lastSeenAt": "2026-10-21T04:51:51Z",
+      "blobSha": "2879232794cc1494afea0e94a26ecb761fea36c3",
+      "lastSeenAt": "2026-11-18T04:24:20Z",
       "discoveredAt": "2026-10-21T04:51:51Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-21T04:51:51Z",
-      "updatedAt": "2026-10-21T04:51:51Z"
+      "checkedAt": "2026-11-18T04:24:20Z",
+      "updatedAt": "2026-11-18T04:24:20Z"
     },
     {
       "id": "AUTO-c7ce481f7529118fd744",
@@ -5966,12 +5966,12 @@
       "subtype": "Agent Skill",
       "category": "软件开发",
       "group": "编程、网站与 AI Agent",
-      "description": "Use when the user asks for a deep, exhaustive, multi-pass, or variance-reducing repository-wide or scoped-path Codex Security scan. Run repeated complete independent Standard scans with the Codex Security deep-scan tool, which aggregates their validated findings and prepares the canonical artifacts; then complete the same scan once. Do not use for PRs, commits, branch diffs, or working-tree diffs.",
+      "description": "Run repeated Standard security scans of a repository or scoped path when the user requests a deep, exhaustive, or multi-pass audit. For changes to a PR, commit, branch or working tree, use security-diff-scan.",
       "scenario": "适用领域：编程、网站与 AI Agent。仅为目录发现结果，使用前需阅读 SKILL.md、依赖与权限说明。",
       "provider": "OpenAI 官方",
       "platform": "视来源仓库与本地客户端而定，未进行兼容性实测",
       "url": "https://github.com/openai/plugins/tree/main/plugins/codex-security/skills/deep-security-scan",
-      "priority": "P1",
+      "priority": "P2",
       "stage": "待审核",
       "verified": "自动核验公开仓库文件存在；安全/兼容性/安装均未实测",
       "risk": "第三方技能可能访问本地文件、凭证或外部网络；安装前审查代码、权限与依赖。",
@@ -5981,12 +5981,12 @@
       "added": "2026-10-21",
       "sourceRepo": "openai/plugins",
       "sourcePath": "plugins/codex-security/skills/deep-security-scan/SKILL.md",
-      "blobSha": "ef4cd1932d560ed8990e95cf887a373aae14cd11",
-      "lastSeenAt": "2026-10-21T04:51:51Z",
+      "blobSha": "18ac4937b1ccacd0f2281b39f292155dbdfa188b",
+      "lastSeenAt": "2026-11-18T04:24:20Z",
       "discoveredAt": "2026-10-21T04:51:51Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-21T04:51:51Z",
-      "updatedAt": "2026-10-21T04:51:51Z"
+      "checkedAt": "2026-11-18T04:24:20Z",
+      "updatedAt": "2026-11-18T04:24:20Z"
     },
     {
       "id": "AUTO-fb26500ecfd7ca9e02fb",
@@ -6010,12 +6010,12 @@
       "added": "2026-10-21",
       "sourceRepo": "openai/plugins",
       "sourcePath": "plugins/codex-security/skills/define-security-policy/SKILL.md",
-      "blobSha": "a13fd4230e8b28b2cff9f1cb272f012421a6d25c",
-      "lastSeenAt": "2026-10-21T04:51:51Z",
+      "blobSha": "d7b73cbd8ecd95d3bf9da9f2214be5ce5ded49c3",
+      "lastSeenAt": "2026-11-18T04:24:20Z",
       "discoveredAt": "2026-10-21T04:51:51Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-21T04:51:51Z",
-      "updatedAt": "2026-10-21T04:51:51Z"
+      "checkedAt": "2026-11-18T04:24:20Z",
+      "updatedAt": "2026-11-18T04:24:20Z"
     },
     {
       "id": "AUTO-b71af89f71ff70d6d3be",
@@ -6416,12 +6416,12 @@
       "added": "2026-10-21",
       "sourceRepo": "openai/plugins",
       "sourcePath": "plugins/codex-security/skills/finding-discovery/SKILL.md",
-      "blobSha": "d0794ff3cbef18ea5e6daceb5c0ad866b9f2d081",
-      "lastSeenAt": "2026-10-21T04:51:52Z",
+      "blobSha": "678708aa1204e91cac4ec95bfba546c1a90807e3",
+      "lastSeenAt": "2026-11-18T04:24:20Z",
       "discoveredAt": "2026-10-21T04:51:52Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-21T04:51:52Z",
-      "updatedAt": "2026-10-21T04:51:52Z"
+      "checkedAt": "2026-11-18T04:24:20Z",
+      "updatedAt": "2026-11-18T04:24:20Z"
     },
     {
       "id": "AUTO-e5545ef0bce62deaa68d",
@@ -6503,12 +6503,12 @@
       "added": "2026-10-21",
       "sourceRepo": "openai/plugins",
       "sourcePath": "plugins/codex-security/skills/fix-finding/SKILL.md",
-      "blobSha": "007c1785ce40f4aad27fe5cfce1d6921acf869e1",
-      "lastSeenAt": "2026-10-21T04:51:52Z",
+      "blobSha": "e5d1f26ea3cc7a96b639ba87d6f23b3676d73214",
+      "lastSeenAt": "2026-11-18T04:24:21Z",
       "discoveredAt": "2026-10-21T04:51:52Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-21T04:51:52Z",
-      "updatedAt": "2026-10-21T04:51:52Z"
+      "checkedAt": "2026-11-18T04:24:21Z",
+      "updatedAt": "2026-11-18T04:24:21Z"
     },
     {
       "id": "AUTO-840e0f2b8fe627c110e0",
@@ -7300,7 +7300,7 @@
       "subtype": "Agent Skill",
       "category": "软件开发",
       "group": "编程、网站与 AI Agent",
-      "description": "Develop evidence-backed structural and architectural security hardening proposals from vulnerability disclosures, supplied findings, incident or assessment documents, source code, or a completed Codex Security scan. Use when a user asks for systemic improvements, alternatives beyond per-finding patches, before-and-after security architecture views, engineering tradeoff analysis, or an implementation-ready plan for a selected hardening option. Als",
+      "description": "Develop evidence-backed structural security hardening proposals from disclosures, findings, source code, or Codex Security scans. Use for systemic improvements, alternatives beyond individual patches, architectural tradeoffs, or implementation planning. Also use when a top-level scan requests final-report hardening guidance.",
       "scenario": "适用领域：编程、网站与 AI Agent。仅为目录发现结果，使用前需阅读 SKILL.md、依赖与权限说明。",
       "provider": "OpenAI 官方",
       "platform": "视来源仓库与本地客户端而定，未进行兼容性实测",
@@ -7315,12 +7315,12 @@
       "added": "2026-10-21",
       "sourceRepo": "openai/plugins",
       "sourcePath": "plugins/codex-security/skills/propose-security-hardening/SKILL.md",
-      "blobSha": "d65054290f5cbf12862bdc7ccfa3b0ff95999738",
-      "lastSeenAt": "2026-10-21T04:51:52Z",
+      "blobSha": "3f3cc21ffd4225ac9d1428388a3e56211f8d60fb",
+      "lastSeenAt": "2026-11-18T04:24:21Z",
       "discoveredAt": "2026-10-21T04:51:52Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-21T04:51:52Z",
-      "updatedAt": "2026-10-21T04:51:52Z"
+      "checkedAt": "2026-11-18T04:24:21Z",
+      "updatedAt": "2026-11-18T04:24:21Z"
     },
     {
       "id": "AUTO-f4f35815eff00d33c1c4",
@@ -7692,12 +7692,12 @@
       "added": "2026-10-21",
       "sourceRepo": "openai/plugins",
       "sourcePath": "plugins/codex-security/skills/security-diff-scan/SKILL.md",
-      "blobSha": "a1d1024bce3a4154d79e61a37cc924c1c4092643",
-      "lastSeenAt": "2026-10-21T04:51:53Z",
+      "blobSha": "faa0d4013714c198f2d87a098036e3f06fb09af1",
+      "lastSeenAt": "2026-11-18T04:24:21Z",
       "discoveredAt": "2026-10-21T04:51:53Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-21T04:51:53Z",
-      "updatedAt": "2026-10-21T04:51:53Z"
+      "checkedAt": "2026-11-18T04:24:21Z",
+      "updatedAt": "2026-11-18T04:24:21Z"
     },
     {
       "id": "AUTO-2f384cfafcab28fb6eeb",
@@ -7706,7 +7706,7 @@
       "subtype": "Agent Skill",
       "category": "软件开发",
       "group": "编程、网站与 AI Agent",
-      "description": "Use for a standard, single-pass security audit of an entire repository or a scoped path, package, folder, or submodule with no diff to review. This is the default repository scan. Do not use for PR, commit, branch, or working-tree diffs, or for deep, multi-pass scans.",
+      "description": "Find vulnerabilities in the current source of a whole repository or selected paths. This is the default single-pass audit. Use the diff skill for PR, commit, branch, or working-tree changes and the deep skill for an explicitly requested deep scan.",
       "scenario": "适用领域：编程、网站与 AI Agent。仅为目录发现结果，使用前需阅读 SKILL.md、依赖与权限说明。",
       "provider": "OpenAI 官方",
       "platform": "视来源仓库与本地客户端而定，未进行兼容性实测",
@@ -7721,12 +7721,12 @@
       "added": "2026-10-21",
       "sourceRepo": "openai/plugins",
       "sourcePath": "plugins/codex-security/skills/security-scan/SKILL.md",
-      "blobSha": "5bf4c01658bb9f214fb234db480c9ef0c3612307",
-      "lastSeenAt": "2026-10-21T04:51:53Z",
+      "blobSha": "fc11ccae515f69acdf529777d042ea32380ef452",
+      "lastSeenAt": "2026-11-18T04:24:21Z",
       "discoveredAt": "2026-10-21T04:51:53Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-21T04:51:53Z",
-      "updatedAt": "2026-10-21T04:51:53Z"
+      "checkedAt": "2026-11-18T04:24:21Z",
+      "updatedAt": "2026-11-18T04:24:21Z"
     },
     {
       "id": "AUTO-1ecb20938efa8b8ad50b",
@@ -7953,12 +7953,12 @@
       "added": "2026-10-21",
       "sourceRepo": "openai/plugins",
       "sourcePath": "plugins/codex-security/skills/threat-model/SKILL.md",
-      "blobSha": "75a00180d5eed795cf928548d62ee7b1207b4a1d",
-      "lastSeenAt": "2026-10-21T04:51:53Z",
+      "blobSha": "7d40076528c951424a9a0070fb34ab16594fed9b",
+      "lastSeenAt": "2026-11-18T04:24:22Z",
       "discoveredAt": "2026-10-21T04:51:53Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-21T04:51:53Z",
-      "updatedAt": "2026-10-21T04:51:53Z"
+      "checkedAt": "2026-11-18T04:24:22Z",
+      "updatedAt": "2026-11-18T04:24:22Z"
     },
     {
       "id": "AUTO-3e2f9747a2f973220682",
@@ -7982,12 +7982,12 @@
       "added": "2026-10-21",
       "sourceRepo": "openai/plugins",
       "sourcePath": "plugins/codex-security/skills/track-findings/SKILL.md",
-      "blobSha": "d841469768f28a45ef19db9dcf9ddaa7e9fe6fc2",
-      "lastSeenAt": "2026-10-21T04:51:54Z",
+      "blobSha": "ffa2f8b8c48891346eab72d89cedd96a9a2e7cdf",
+      "lastSeenAt": "2026-11-18T04:24:22Z",
       "discoveredAt": "2026-10-21T04:51:54Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-21T04:51:54Z",
-      "updatedAt": "2026-10-21T04:51:54Z"
+      "checkedAt": "2026-11-18T04:24:22Z",
+      "updatedAt": "2026-11-18T04:24:22Z"
     },
     {
       "id": "AUTO-1a4a74b7a70a222b0e71",
@@ -8011,12 +8011,12 @@
       "added": "2026-10-21",
       "sourceRepo": "openai/plugins",
       "sourcePath": "plugins/codex-security/skills/triage-finding/SKILL.md",
-      "blobSha": "a3487437f832cd818ebb295fb62f3d42e683bc82",
-      "lastSeenAt": "2026-10-21T04:51:54Z",
+      "blobSha": "091360319a8c4ab5712da4c14f857688a2dd80fe",
+      "lastSeenAt": "2026-11-18T04:24:22Z",
       "discoveredAt": "2026-10-21T04:51:54Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-21T04:51:54Z",
-      "updatedAt": "2026-10-21T04:51:54Z"
+      "checkedAt": "2026-11-18T04:24:22Z",
+      "updatedAt": "2026-11-18T04:24:22Z"
     },
     {
       "id": "AUTO-b067b4995c9d81d195c2",
@@ -8301,12 +8301,12 @@
       "added": "2026-10-21",
       "sourceRepo": "openai/plugins",
       "sourcePath": "plugins/codex-security/skills/validation/SKILL.md",
-      "blobSha": "8d0f1959092f9746224aadeb0e5a4f69443c07bb",
-      "lastSeenAt": "2026-10-21T04:51:54Z",
+      "blobSha": "b62821c78a212937e6c038185357f1f586ca066e",
+      "lastSeenAt": "2026-11-18T04:24:22Z",
       "discoveredAt": "2026-10-21T04:51:54Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-21T04:51:54Z",
-      "updatedAt": "2026-10-21T04:51:54Z"
+      "checkedAt": "2026-11-18T04:24:22Z",
+      "updatedAt": "2026-11-18T04:24:22Z"
     },
     {
       "id": "AUTO-8ea306cb96bcbf4c50b6",
@@ -8475,12 +8475,12 @@
       "added": "2026-10-21",
       "sourceRepo": "openai/plugins",
       "sourcePath": "plugins/codex-security/skills/verify-fix/SKILL.md",
-      "blobSha": "fd65c5e2794933516a210b8fd111c55af920ef26",
-      "lastSeenAt": "2026-10-21T04:51:54Z",
+      "blobSha": "bb438085e52975f938be0a6c0247c3820aa24c31",
+      "lastSeenAt": "2026-11-18T04:24:23Z",
       "discoveredAt": "2026-10-21T04:51:54Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-21T04:51:54Z",
-      "updatedAt": "2026-10-21T04:51:54Z"
+      "checkedAt": "2026-11-18T04:24:23Z",
+      "updatedAt": "2026-11-18T04:24:23Z"
     },
     {
       "id": "AUTO-d54f357e460d958c386f",
@@ -8489,7 +8489,7 @@
       "subtype": "Agent Skill",
       "category": "软件开发",
       "group": "编程、网站与 AI Agent",
-      "description": "Turn vulnerability notes, disclosure reports, PoCs, source code, or Codex Security findings into self-contained, sceptically validated, natural-sounding vulnerability reports. Use for one vulnerability or a disclosure campaign; a Codex Security scan is optional.",
+      "description": "Turn vulnerability notes, disclosure reports, PoCs, source code, or Codex Security findings into self-contained vulnerability reports with clearly supported claims. Use for one vulnerability or a disclosure campaign; a Codex Security scan is optional.",
       "scenario": "适用领域：编程、网站与 AI Agent。仅为目录发现结果，使用前需阅读 SKILL.md、依赖与权限说明。",
       "provider": "OpenAI 官方",
       "platform": "视来源仓库与本地客户端而定，未进行兼容性实测",
@@ -8504,12 +8504,12 @@
       "added": "2026-10-21",
       "sourceRepo": "openai/plugins",
       "sourcePath": "plugins/codex-security/skills/vulnerability-writeup/SKILL.md",
-      "blobSha": "59c346e823ab5703318cdf0f2cded7a168c48fde",
-      "lastSeenAt": "2026-10-21T04:51:55Z",
+      "blobSha": "55cdaa32249a172b91bcef7fbea2c945193a6ff1",
+      "lastSeenAt": "2026-11-18T04:24:23Z",
       "discoveredAt": "2026-10-21T04:51:55Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-21T04:51:55Z",
-      "updatedAt": "2026-10-21T04:51:55Z"
+      "checkedAt": "2026-11-18T04:24:23Z",
+      "updatedAt": "2026-11-18T04:24:23Z"
     },
     {
       "id": "AUTO-b7f3b8d9f3bb0c54ea3e",
