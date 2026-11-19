@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "SkillScope V4 GitHub Collector",
-  "last_checked": "2026-11-19T13:12:29Z",
+  "last_checked": "2026-11-19T21:37:35Z",
   "sources_scanned": [
     "anthropics/skills (11)",
     "openai/plugins (282)",
@@ -12,7 +12,7 @@
   "source_errors": [],
   "resource_count": 420,
   "new_count": 0,
-  "updated_count": 0,
+  "updated_count": 1,
   "resources": [
     {
       "id": "AUTO-ce460a0e68d7fe292286",
@@ -8895,7 +8895,7 @@
       "subtype": "Agent Skill",
       "category": "行业研究",
       "group": "行业研究与商业情报",
-      "description": "Build and troubleshoot Azure AI Search, Speech, OpenAI, and Document Intelligence apps. WHEN: AI Search, vector search, hybrid search, semantic search, speech-to-text, text-to-speech, transcribe, fast or batch transcription, Speech SDK logs, session ID, result ID, OCR.",
+      "description": "Build and troubleshoot Azure AI Search, Speech, Document Intelligence, Content Understanding, Translator, Content Safety, and OpenAI apps. WHEN: AI Search, vector search, hybrid search, semantic search, indexer, speech-to-text, text-to-speech, fast or batch transcription, Speech SDK logs, session ID, result ID, OCR, document translation, glossary.",
       "scenario": "适用领域：行业研究与商业情报。仅为目录发现结果，使用前需阅读 SKILL.md、依赖与权限说明。",
       "provider": "Microsoft 官方",
       "platform": "视来源仓库与本地客户端而定，未进行兼容性实测",
@@ -8910,12 +8910,12 @@
       "added": "2026-10-20",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/azure-skills/skills/azure-ai/SKILL.md",
-      "blobSha": "ca659485edc479d1d5458a24a2d066bb462db680",
-      "lastSeenAt": "2026-11-17T04:30:09Z",
+      "blobSha": "a9d4b038b9904648e56f3f5c6af80869333a31d7",
+      "lastSeenAt": "2026-11-19T21:37:35Z",
       "discoveredAt": "2026-10-20T20:37:33Z",
       "githubUpdated": "",
-      "checkedAt": "2026-11-17T04:30:09Z",
-      "updatedAt": "2026-11-17T04:30:09Z"
+      "checkedAt": "2026-11-19T21:37:35Z",
+      "updatedAt": "2026-11-19T21:37:35Z"
     },
     {
       "id": "AUTO-253fea352bba1d56174f",
