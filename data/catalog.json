@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generator": "SkillScope V4 GitHub Collector",
-  "last_checked": "2026-11-20T12:56:44Z",
+  "last_checked": "2026-11-20T21:07:50Z",
   "sources_scanned": [
     "anthropics/skills (11)",
     "openai/plugins (282)",
@@ -12,7 +12,7 @@
   "source_errors": [],
   "resource_count": 420,
   "new_count": 0,
-  "updated_count": 0,
+  "updated_count": 2,
   "resources": [
     {
       "id": "AUTO-ce460a0e68d7fe292286",
@@ -3661,12 +3661,12 @@
       "added": "2026-10-20",
       "sourceRepo": "microsoft/skills",
       "sourcePath": ".github/plugins/azure-skills/skills/azure-diagnostics/SKILL.md",
-      "blobSha": "b4ee2db593a16869339b97b9095cdac2f2d49ca9",
-      "lastSeenAt": "2026-10-29T21:08:54Z",
+      "blobSha": "2065c17715b474d23663c8622741d05a313eac4c",
+      "lastSeenAt": "2026-11-20T21:07:50Z",
       "discoveredAt": "2026-10-20T20:37:35Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-29T21:08:54Z",
-      "updatedAt": "2026-10-29T21:08:54Z"
+      "checkedAt": "2026-11-20T21:07:50Z",
+      "updatedAt": "2026-11-20T21:07:50Z"
     },
     {
       "id": "AUTO-c4a171a7bd99a8f00108",
@@ -12158,12 +12158,12 @@
       "added": "2026-10-20",
       "sourceRepo": "vercel-labs/agent-skills",
       "sourcePath": "skills/web-design-guidelines/SKILL.md",
-      "blobSha": "ceae92ab319216a68274168fba9b63b998b65997",
-      "lastSeenAt": "2026-10-20T17:10:57Z",
+      "blobSha": "6e67f6e080d104973fe89a7903464c74d980edca",
+      "lastSeenAt": "2026-11-20T21:07:50Z",
       "discoveredAt": "2026-10-20T17:10:57Z",
       "githubUpdated": "",
-      "checkedAt": "2026-10-20T17:10:57Z",
-      "updatedAt": "2026-10-20T17:10:57Z"
+      "checkedAt": "2026-11-20T21:07:50Z",
+      "updatedAt": "2026-11-20T21:07:50Z"
     },
     {
       "id": "AUTO-491952f14c63d822b97f",
